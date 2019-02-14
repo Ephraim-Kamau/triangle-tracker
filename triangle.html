@@ -1,14 +1,21 @@
-
+<!DOCTYPE html>
 <html>
   <head>
     <title>Triangle Tracker</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <script src="js/scripts.js"></script>
+    <h1>TRIANGLE TRACKER</h1>
+    <p> This is an application to help you determine the type of triangle your values will produce</p>
     <form>
-      <br>Enter the first length: <input type = "int" name="length1"/></br>
-      <br>Enter the second length: <input type = "int" name="length2"/></br>
-      <br>Enter the third length: <input type = "int" name="length3"/></br>
+      <br>Enter the first length: <input type = "int" id="length1"/><br>
+      <br>Enter the second length: <input type = "int" id="length2"/><br>
+      <br>Enter the third length: <input type = "int" id="length3"/><br>
+        <button type = "button" onclick="btn()">Calculate</button><br>
+      <br>Result: <input type = "string" id="result"><span id="answer"></span></br>
+
     </form>
+
+        <script src="js/scripts.js"></script>
   </body>
   </html>
