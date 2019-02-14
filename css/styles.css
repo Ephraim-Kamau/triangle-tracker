@@ -1,5 +1,20 @@
 form {
   text-align:center;
-  font-size: 18px;
-
+  font-size: 20px;
+  background-color:gray;
+  padding:8px;
+  border: 2px solid red;
+  margin: 20px;
+}
+h1 {
+  text-align:center;
+  color:blue;
+}
+p {
+  text-align:center;
+  color:blue;
+  font-size:20px;
+}
+button {
+  font-size:18px;
 }
