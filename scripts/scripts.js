@@ -7,17 +7,16 @@ function gt() {
   var length2 = parseInt(side2);
   var length3 = parseInt(side3);
 
-
-if (length1 === length2 && length1 === length3 && length2 === length3){
+if ((length1 + length2) <= length3 || (length1 + length3) <= length2 || (length2 + length3) <= length1) {
+  alert("A triangle cannot be formed");
+}
+else if (length1 === length2 && length1 === length3 && length2 === length3){
   alert("This is an equilateral triangle");
 }
   else if (length1 === length2 || length1 === length3 || length2 === length3) {
     alert("This is an isosceles triangle");
   }
-  else if (length1 !== length2 && length1 !== length3 && length2 !== length3 ) {
+  else { (length1 !== length2 && length1 !== length3 && length2 !== length3 )
     alert("This is a scalene triangle");
-  }
-else { ((length1 + length2) <= length3 && (length1 + length3) <= length2 && (length2 + length3) <= length1)
-  alert("A triangle cannot be formed");
   }
 }
