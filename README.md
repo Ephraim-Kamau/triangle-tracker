@@ -12,19 +12,22 @@ Some points to note are:
 <li>For a scalene triangle, none of the sides is equal. However, the sum of any two sides of the triangle must be greater than the third side.</li>
 <li>If the sum of any two sides of the triangle is equal to or less than the third remaining side, then a triangle CANNOT be formed using those values.</li></p>
 </ol>
-<table border ="1" width="70%">
-      <tr>
-        <th>Behaviour <br>
-          Our program should handle</th>
-          <th>Input example <br>
-            &nbsp &nbspWhen it receives</th>
-            <th>Output example <br>
-              It should return</th>
-      </tr>
-<p><td>&nbspThe program determines whether
+
+| Behaviour |Input example | Output example|
+  ---------- -------------  ---------------
+|The program determines whether
 the three sides  are equal to an
-equilateral triangle</td><td>&nbsp length 1 (12) <br>&nbsp length 2 (12) <br>&nbsp length 3 (12)
-</td><td>&nbspThis is an equilateral triangle</td></p>
+equilateral triangle            |   length 1 (12) length 2 (12)  length 3 (12)        | This is an equilateral triangle          |
+|            |             |               |
+|            |             |               |
+|            |             |               |
+|            |             |               |
+|            |             |               |
+|            |             |               |
+|            |             |               |
+|            |             |               |
+|            |             |               |
+
 
       <p><tr><td>&nbspThe program determines whether
       the three sides are equal to an
