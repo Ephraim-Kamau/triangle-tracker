@@ -17,17 +17,17 @@ Some points to note are:
 |       Behaviour               |              Input example                 |           Output example      |
 |-------------------            | :---------------------------------------:  |------------------------------:|
 |The program determines whether |length-1 (12)                               |This is an equilateral triangle|
-the three sides  are equal to an|length-2 (12)
-equilateral triangle            |length-3 (12)
+the three sides  are equal to an length-2 (12)
+equilateral triangle             length-3 (12)                                                               |
 |The program determines whether |length-1 (10)                               |This is an isosceles triangle  |  
-the three sides are equal to an |length-2 (10)
-isosceles triangle              |length-3 (13)
+the three sides are equal to an  length-2 (10)
+isosceles triangle               length-3 (13)                                                               |
 |The program determines whether |length-1 (9)                                |This is a scalene triangle     |
-the three sides are equal to an |length-2 (10)
-scalene triangle                |length-3 (11)
+the three sides are equal to an  length-2 (10)
+scalene triangle                 length-3 (11)                                                               |
 |Not a triangle                 |length-1 (9)                                |This cannot form a triangle    |
-                                |length-2 (4)
-                                |length-3 (3)
+                                 length-2 (4)
+                                 length-3 (3)                                                                |
 
 
 <p>Technologies used include:</p>
