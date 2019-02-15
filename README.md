@@ -16,7 +16,7 @@ Some points to note are:
 
 |       Behaviour     |              Input example                 |           Output example      |
 |-------------------  | :---------------------------------------:  |------------------------------:|
-|Equilateral triangle |length 1 (12) length 2 (12)  length 3 (12)  |This is an equilateral triangle|
+|Equilateral trianglehgvkhvjvbikhvkhv |length 1 (12) length 2 (12)  length 3 (12)  |This is an equilateral triangle|
 |Isosceles triangle   |length 1 (10) length 2 (10)  length 3 (13)  |This is an isosceles triangle  |  
 |Scalene triangle     |length 1 (9) length 2 (10)  length 3 (11)   |This is a scalene triangle     |
 |Not a triangle       |length 1 (9) length 2 (4)  length 3 (3)     |This cannot form a triangle    |
