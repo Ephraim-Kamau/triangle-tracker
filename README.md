@@ -14,12 +14,18 @@ Some points to note are:
 </ol>
 
 
-|       Behaviour     |              Input example                 |           Output example      |
-|-------------------  | :---------------------------------------:  |------------------------------:|
-|Equilateral trianglehgvkhvjvbikhvkhv |length 1 (12) length 2 (12)  length 3 (12)  |This is an equilateral triangle|
-|Isosceles triangle   |length 1 (10) length 2 (10)  length 3 (13)  |This is an isosceles triangle  |  
-|Scalene triangle     |length 1 (9) length 2 (10)  length 3 (11)   |This is a scalene triangle     |
-|Not a triangle       |length 1 (9) length 2 (4)  length 3 (3)     |This cannot form a triangle    |
+|       Behaviour               |              Input example                 |           Output example      |
+|-------------------            | :---------------------------------------:  |------------------------------:|
+|The program determines whether |length 1 (12) length 2 (12)  length 3 (12)  |This is an equilateral triangle|
+the three sides  are equal to an
+equilateral triangle
+|The program determines whether |length 1 (10) length 2 (10)  length 3 (13)  |This is an isosceles triangle  |  
+the three sides are equal to an
+isosceles triangle  
+|The program determines whether |length 1 (9) length 2 (10)  length 3 (11)   |This is a scalene triangle     |
+the three sides are equal to an
+scalene triangle    
+|Not a triangle                 |length 1 (9) length 2 (4)  length 3 (3)     |This cannot form a triangle    |
 
 
 
