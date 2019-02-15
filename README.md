@@ -3,6 +3,9 @@
 #### 15/2/2019
 #### By **Ephraim Kamau**
 
+#### Setup Information
+Ensure you have JavaScript installed in order to ensure the program runs.
+
 ## Description of the Triangle Tracker program
 <p>I built an application that helps us know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.
 Some points to note are:
